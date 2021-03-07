@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "lib": ["ES2019"],
+    "target": "ES2019",
+    "strict": true,
+    "noImplicitReturns": true,
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "lib"
+  },
+  "files": ["src/ezop.ts"]
+}
