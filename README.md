@@ -18,7 +18,7 @@ import parse from "ezop";
 
 console.log(parse(`file.txt --hello world -abc -i foo -i bar -xx -- more stuff`.split(/\s/)));
 ```
-```json
+```js
 {
   args: [ 'file.txt' ],
   flags: { hello: 'world', i: 'bar' },
@@ -52,7 +52,7 @@ console.log(parse(`-v file.txt -p src -i foo -l`.split(/\s/), {
   log: level("l"),
 }));
 ```
-```json
+```js
 {
   args: [ 'file.txt' ],
   flags: { project: 'src' },
